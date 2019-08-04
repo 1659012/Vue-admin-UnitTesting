@@ -3,3 +3,11 @@ const sum = require('./sum');
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
+
+test('adds undefined + 2 to equal undefined', () => {
+  expect(sum(undefined, 2)).toBe(undefined);
+});
+
+test('adds null + 2 to equal undefined', () => {
+  expect(sum(undefined, 2)).toBe(undefined);
+});
