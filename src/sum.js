@@ -3,6 +3,6 @@ function sum(a, b) {
     return undefined;
   }
 
-  return parseInt(a) + parseInt(b);
+  return parseInt(a) - parseInt(b);
 }
 module.exports = sum;
